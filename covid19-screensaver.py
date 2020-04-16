@@ -7,8 +7,8 @@ import numpy as np
 from pyglet.gl import *
 import math
 
-screen_width  = 1024 #4240
-screen_height = 768 #1050
+screen_width  = 800 #4240
+screen_height = 600 #1050
 
 pops = [False, True]
 
