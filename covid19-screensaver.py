@@ -1,5 +1,3 @@
-# corona virus - covid-19 screensaver
-# written using Python 3.8.2 and pyglet 1.5.0
 # Version 0.1
 import pyglet
 import random
@@ -7,14 +5,12 @@ import numpy as np
 from pyglet.gl import *
 import math
 
-screen_width  = 800 #4240
-screen_height = 600 #1050
+screen_width  = 640 #4240
+screen_height = 480 #1050
 
 pops = [False, True]
-
 ratio = screen_height/screen_width
 
-#spawn_num = round(420/2) # number of objects to spawn
 spawn_num = 24 # number of objects to spawn
 spawns = [] # spawned objects
 endscreen = False
@@ -45,11 +41,6 @@ nflaps(flap)
 nspins(spin)
 flaplen = len(flaps)
 spinlen = len(spins)
-#print(flaplen)
-#print(spinlen)
-print(flaps)
-print('')
-print(spins)
 flapcount = 0
 spincount = 0
 
