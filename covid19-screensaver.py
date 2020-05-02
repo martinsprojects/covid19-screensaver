@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 # Version 0.1
 import pyglet
 import random
@@ -71,13 +73,13 @@ window = pyglet.window.Window(screen_width, screen_height) #4240x1050
 x, y = window.get_location()
 window.set_location(x - 1, y - 1)
 #window.set_location(1280 - 1, y - 1)
-virus = pyglet.image.load('sprites/virus.png')
+virus = pyglet.image.load('/mnt/localstore/projects/source/screenvirus/sprites/virus.png')
 virus_anim = pyglet.image.ImageGrid(virus, 1, 25)
 
-skull = pyglet.image.load('sprites/cranium.png')
+skull = pyglet.image.load('/mnt/localstore/projects/source/screenvirus/sprites/cranium.png')
 skull_anim = pyglet.image.ImageGrid(skull, 1, 25)
 
-syringe = pyglet.image.load('sprites/syringes.png')
+syringe = pyglet.image.load('/mnt/localstore/projects/source/screenvirus/sprites/syringes.png')
 syringe_anim = pyglet.image.ImageGrid(syringe, 1, 25)
 
 glEnable(GL_BLEND)

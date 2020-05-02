@@ -1,1 +1,7 @@
-sprite_assets/
+sprite_assets/assets/
+sprite_assets/ref/
+sprite_assets/renders/
+screenvirus/
+screenvirus.sh
+xlibtest.py
+xlibtestvirus.py
