@@ -1,4 +1,4 @@
-numpy==1.18.2
+numpy==1.22.0
 pyglet==1.5.3
 screeninfo==0.6.5
 python-xlib==0.27
